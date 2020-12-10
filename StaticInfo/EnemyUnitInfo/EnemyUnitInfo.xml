@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<EnemyUnitClassRoot>
+    <Enemy ID="36491001">
+    <!--거미다리-->
+    <NameID>36491001</NameID>
+    <MinHeight>190</MinHeight>
+    <MaxHeight>190</MaxHeight>
+    <BookId>36491800</BookId>
+    <DeckId>36491800</DeckId>
+    <DropTable Level="0">
+      <DropItem Prob="0.3">36490500</DropItem>
+      <DropItem Prob="3">36490501</DropItem>
+    </DropTable>
+    <DropTable Level="3">
+      <DropItem Prob="1">36490500</DropItem>
+      <DropItem Prob="5">36490501</DropItem>
+    </DropTable>
+  </Enemy>
+</EnemyUnitClassRoot>

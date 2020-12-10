@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<StageXmlRoot>
+    <Stage id="36491000">
+    <Name>사서 에고</Name>
+    <Wave>
+      <Formation>1</Formation>
+      <AvailableUnit>5</AvailableUnit>
+      <Unit>36491001</Unit>
+      <Unit>36491001</Unit>
+    </Wave>
+    <FloorNum>3</FloorNum>
+    <Invitation Combine="BookRecipe">
+      <Book>99998</Book>
+      <Book>250022</Book>
+      <!-- <Book>250001</Book> -->
+    </Invitation>
+    <Chapter>6</Chapter>
+  </Stage>
+</StageXmlRoot>

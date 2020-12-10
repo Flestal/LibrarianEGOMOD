@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DiceCardXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Card ID="36492014">
+        <Name>페이드 인</Name>
+        <Artwork>SilentOrchestra_Music</Artwork>
+        <Rarity>Uncommon</Rarity>
+        <Spec Range="Far" Cost="1" />
+        <Option>OnlyPage</Option>
+        <Script>FadeIn</Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="5" Dice="12" Type="Atk" Detail="Slash" Motion="F" EffectRes="" Script="FadeIn" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+        <SortPriority>1</SortPriority>
+    </Card>
+    <Card ID="36492015">
+        <Name>오버랩</Name>
+        <Artwork>SilentOrchestra_Music</Artwork>
+        <Rarity>Uncommon</Rarity>
+        <Spec Range="Far" Cost="2" />
+        <Option>OnlyPage</Option>
+        <Script>Overlap</Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="7" Dice="12" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="drawCard1atk" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+        <SortPriority>1</SortPriority>
+    </Card>
+    <Card ID="36492016">
+        <Name>클로즈업</Name>
+        <Artwork>SilentOrchestra_Music</Artwork>
+        <Rarity>Rare</Rarity>
+        <Spec Range="Far" Cost="3" />
+        <Option>OnlyPage</Option>
+        <Script>CloseUp</Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="6" Dice="8" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="7" Dice="9" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="6" Dice="8" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+        <SortPriority>1</SortPriority>
+    </Card>
+    <Card ID="36492017">
+        <Name>애드리브</Name>
+        <Artwork>SilentOrchestra_EGO</Artwork>
+        <Rarity>Unique</Rarity>
+        <Spec Range="Far" Cost="3" />
+        <Option>OnlyPage</Option>
+        <Script>Adlib</Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="1" Dice="1" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+        <SortPriority>1</SortPriority>
+    </Card>
+    <Card ID="36492018">
+        <Name>페이드 아웃</Name>
+        <Artwork>SilentOrchestra_Finale</Artwork>
+        <Rarity>Unique</Rarity>
+        <Spec Range="Far" Cost="5" />
+        <Option>OnlyPage</Option>
+        <Script>FadeOut</Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="15" Dice="20" Type="Atk" Detail="Hit" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="15" Dice="20" Type="Atk" Detail="Hit" Motion="F" EffectRes="" Script="" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+        <SortPriority>1</SortPriority>
+    </Card>
+    <Card ID="36492100">
+        <Name>애드리브_참격</Name>
+        <Artwork>SilentOrchestra_Finale</Artwork>
+        <Rarity>Rare</Rarity>
+        <Spec Range="Far" Cost="0" />
+        <Script></Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="10" Dice="15" Type="Atk" Detail="Slash" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="10" Dice="15" Type="Atk" Detail="Slash" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="10" Dice="15" Type="Atk" Detail="Slash" Motion="F" EffectRes="" Script="" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+        <SortPriority>1</SortPriority>
+    </Card>
+    <Card ID="36492101">
+        <Name>애드리브_관통</Name>
+        <Artwork>SilentOrchestra_Finale</Artwork>
+        <Rarity>Rare</Rarity>
+        <Spec Range="Far" Cost="0" />
+        <Script></Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="10" Dice="15" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="10" Dice="15" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="10" Dice="15" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+        <SortPriority>1</SortPriority>
+    </Card>
+    <Card ID="36492102">
+        <Name>애드리브_타격</Name>
+        <Artwork>SilentOrchestra_Finale</Artwork>
+        <Rarity>Rare</Rarity>
+        <Spec Range="Far" Cost="0" />
+        <Script></Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="10" Dice="15" Type="Atk" Detail="Hit" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="10" Dice="15" Type="Atk" Detail="Hit" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="10" Dice="15" Type="Atk" Detail="Hit" Motion="F" EffectRes="" Script="" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+        <SortPriority>1</SortPriority>
+    </Card>
+
+</DiceCardXmlRoot>

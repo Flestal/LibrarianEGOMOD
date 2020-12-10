@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<text id="dropbook_egoBook">E.G.O 방어구</text>
+	<text id="dropbook_egoCard">E.G.O 책장</text>
+</localize>

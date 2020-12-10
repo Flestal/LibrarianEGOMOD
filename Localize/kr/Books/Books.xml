@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BookDescRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <bookDescList>
+  <BookDesc BookID="36491800">
+    <BookName>거미다리</BookName>
+    <TextList>
+      <Desc>a</Desc>
+      <Desc>a</Desc>
+    </TextList>
+  </BookDesc>
+  <BookDesc BookID="36491801">
+    <BookName>지휘자</BookName>
+    <TextList>
+      <Desc>a</Desc>
+      <Desc>a</Desc>
+    </TextList>
+  </BookDesc>
+  <BookDesc BookID="36491802">
+    <BookName>끝의 나선</BookName>
+    <TextList>
+      <Desc>a</Desc>
+      <Desc>a</Desc>
+    </TextList>
+  </BookDesc>
+  <BookDesc BookID="36491803">
+    <BookName>한 편의 연극</BookName>
+    <TextList>
+      <Desc>a</Desc>
+      <Desc>a</Desc>
+    </TextList>
+  </BookDesc>
+  <BookDesc BookID="36491804">
+    <BookName>에덴</BookName>
+    <TextList>
+      <Desc>a</Desc>
+      <Desc>a</Desc>
+    </TextList>
+  </BookDesc>
+  </bookDescList>
+</BookDescRoot>

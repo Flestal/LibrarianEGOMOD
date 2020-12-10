@@ -1,0 +1,6 @@
+D:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\BaseMods\LibrarianEGOMOD\Source\Source\obj\Release\Source.csprojAssemblyReference.cache
+D:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\BaseMods\LibrarianEGOMOD\Source\Source\obj\Release\Source.csproj.CoreCompileInputs.cache
+D:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\BaseMods\LibrarianEGOMOD\Source\Source\obj\Release\Source.dll
+D:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\BaseMods\LibrarianEGOMOD\Source\Source\obj\Release\Source.pdb
+D:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\BaseMods\LibrarianEGOMOD\Source.dll
+D:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\BaseMods\LibrarianEGOMOD\Source.pdb

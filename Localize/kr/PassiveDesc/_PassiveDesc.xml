@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PassiveDescRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <PassiveDesc ID="36492800">
+    <Name>최속</Name>
+    <Desc>속도 주사위 +2, 모든 속도 주사위의 값이 무한대가 된다</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="36492801">
+    <Name>거미다리</Name>
+    <Desc>모든 공격 주사위를 8회 사용한다</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="36492802">
+    <Name>집행</Name>
+    <Desc>합 승리 시 상대의 현재 체력의 5%만큼 추가 피해, 현재 흐트러짐 저항의 5%만큼 추가 흐트러짐 피해를 준다</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="36492803">
+    <Name>아 피아체레</Name>
+    <Desc>막 시작 시 빛을 10으로 고정, 속도 주사위 +2, 속도 +5</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="36492804">
+    <Name>크레센도</Name>
+    <Desc>매 막마다 합 승리 시 주사위 위력 1 증가</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="36492805">
+    <Name>칸타빌레</Name>
+    <Desc>광역 공격 책장 적중 시 주사위 값만큼 체력, 흐트러짐 회복</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="36492806">
+    <Name>탑은 하늘에 닿으며</Name>
+    <Desc>속도 주사위 +3, 매 막마다 힘 2, 신속 2를 얻음</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="36492807">
+    <Name>땅에는 무엇도 남기지 않으리라</Name>
+    <Desc>적중 시 피해량만큼 모든 적에게 추가 흐트러짐 피해</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="36492808">
+    <Name>발단</Name>
+    <Desc>속도 주사위 +2, 원거리 책장 사용 시 위력 +3, 출혈, 화상, 부식 피해 면역</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="36492809">
+    <Name>전개</Name>
+    <Desc>공격 주사위 적중 시 탄환을 1장 얻음, 책장 사용 시 탄환 최대 3장 버림, 버린 탄환 1장당 위력 +2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="36492810">
+    <Name>위기</Name>
+    <Desc>흐트러짐 저항이 70% 아래일 시 흐트러짐 내성이 견딤이 됨, 원거리 책장의 공격 주사위 2회 재사용</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="36492811">
+    <Name>절정</Name>
+    <Desc>흐트러짐 저항이 40% 아래일 시 흐트러짐 내성이 보통이 됨, 공격 주사위 위력 +5, 수비 주사위 위력 -3</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="36492812">
+    <Name>결말</Name>
+    <Desc>흐트러짐 시 사망</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="36492813">
+    <Name>금빛 날개</Name>
+    <Desc>감정 단계마다 속도 주사위 추가, 적중 시 긍정 감정 누적, 피격 시 부정 감정 누적</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="36492814">
+    <Name>믿음의 과실</Name>
+    <Desc>적중 시 상대에게 지혜의 열매 부여</Desc>
+  </PassiveDesc>
+
+</PassiveDescRoot>

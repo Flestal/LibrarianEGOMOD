@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookUseXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BookUse ID="36490500">
+    <TextId>dropbook_egoBook</TextId>
+    <BookIcon>Lobotomy</BookIcon>
+    <Chapter>6</Chapter>
+
+    <DropNum>5</DropNum>
+
+    <DropItem Type="Equip">36491800</DropItem>
+    <DropItem Type="Equip">36491801</DropItem>
+    <DropItem Type="Equip">36491802</DropItem>
+    <DropItem Type="Equip">36491803</DropItem>
+    <DropItem Type="Equip">36491804</DropItem>
+  </BookUse>
+  <BookUse ID="36490501">
+    <TextId>dropbook_egoCard</TextId>
+    <BookIcon>Lobotomy</BookIcon>
+    <Chapter>6</Chapter>
+    <DropNum>8</DropNum>
+    <!-- <DropItemState>Card</DropItemState>
+    <DropItem Type="Card">36492000</DropItem>
+    <DropItem Type="Card">36492001</DropItem>
+    <DropItem Type="Card">36492002</DropItem>
+		<DropItem Type="Card">36492003</DropItem>
+    <DropItem Type="Card">36492004</DropItem>
+    <DropItem Type="Card">36492005</DropItem>
+    <DropItem Type="Card">36492006</DropItem>
+		<DropItem Type="Card">36492007</DropItem>
+    <DropItem Type="Card">36492008</DropItem>
+    <DropItem Type="Card">36492009</DropItem>
+    <DropItem Type="Card">36492010</DropItem>
+		<DropItem Type="Card">36492011</DropItem>
+    <DropItem Type="Card">36492012</DropItem>
+    <DropItem Type="Card">36492013</DropItem>
+    <DropItem Type="Card">36492014</DropItem>
+		<DropItem Type="Card">36492015</DropItem>
+    <DropItem Type="Card">36492016</DropItem>
+    <DropItem Type="Card">36492017</DropItem>
+    <DropItem Type="Card">36492018</DropItem>
+		<DropItem Type="Card">36492019</DropItem>
+    <DropItem Type="Card">36492020</DropItem>
+    <DropItem Type="Card">36492021</DropItem>
+    <DropItem Type="Card">36492022</DropItem>
+		<DropItem Type="Card">36492023</DropItem>
+    <DropItem Type="Card">36492024</DropItem> -->
+  </BookUse>
+</BookUseXmlRoot>

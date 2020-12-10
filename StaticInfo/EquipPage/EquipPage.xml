@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BookXmlRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <Book ID="36491800">
+    <Name>거미다리</Name>
+    <TextId>36491800</TextId>
+    <EquipEffect>
+      <HP>120</HP>
+      <Break>120</Break>
+      <SpeedMin>2</SpeedMin>
+      <Speed>6</Speed>
+      <SResist>Immune</SResist>
+      <PResist>Immune</PResist>
+      <HResist>Immune</HResist>
+      <SBResist>Endure</SBResist>
+      <PBResist>Endure</PBResist>
+      <HBResist>Endure</HBResist>
+
+      <Passive>36492800</Passive>
+      <Passive>36492801</Passive>
+      <Passive>36492802</Passive>
+    
+      <OnlyCard>36492000</OnlyCard>
+      <OnlyCard>36492001</OnlyCard>
+      <OnlyCard>36492002</OnlyCard>
+      <OnlyCard>36492003</OnlyCard>
+      <OnlyCard>36492004</OnlyCard>
+    </EquipEffect>
+    <RangeType>Hybrid</RangeType>
+    <BookIcon>Lobotomy</BookIcon>
+    <Chapter>6</Chapter>
+    <Episode>36491000</Episode>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>Custom_SpiderLegs</CharacterSkin>
+  </Book>
+  <Book ID="36491801">
+    <Name>지휘자</Name>
+    <TextId>36491801</TextId>
+    <EquipEffect>
+      <HP>120</HP>
+      <Break>120</Break>
+      <SpeedMin>2</SpeedMin>
+      <Speed>6</Speed>
+      <SResist>Resist</SResist>
+      <PResist>Resist</PResist>
+      <HResist>Resist</HResist>
+      <SBResist>Immune</SBResist>
+      <PBResist>Immune</PBResist>
+      <HBResist>Immune</HBResist>
+
+      <Passive>36492803</Passive>
+      <Passive>36492804</Passive>
+      <Passive>36492805</Passive>
+    
+      <OnlyCard>36492005</OnlyCard>
+      <OnlyCard>36492006</OnlyCard>
+      <OnlyCard>36492007</OnlyCard>
+      <OnlyCard>36492008</OnlyCard>
+      <OnlyCard>36492009</OnlyCard>
+    </EquipEffect>
+    <RangeType>Range</RangeType>
+    <BookIcon>Lobotomy</BookIcon>
+    <Chapter>6</Chapter>
+    <Episode>36491000</Episode>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>Custom_Music</CharacterSkin>
+  </Book>
+  <Book ID="36491802">
+    <Name>끝의 나선</Name>
+    <TextId>36491802</TextId>
+    <EquipEffect>
+      <HP>120</HP>
+      <Break>120</Break>
+      <SpeedMin>2</SpeedMin>
+      <Speed>6</Speed>
+      <SResist>Resist</SResist>
+      <PResist>Resist</PResist>
+      <HResist>Resist</HResist>
+      <SBResist>Resist</SBResist>
+      <PBResist>Resist</PBResist>
+      <HBResist>Resist</HBResist>
+
+      <Passive>36492806</Passive>
+      <Passive>36492807</Passive>
+    
+      <OnlyCard>36492010</OnlyCard>
+      <OnlyCard>36492011</OnlyCard>
+      <OnlyCard>36492012</OnlyCard>
+      <OnlyCard>36492013</OnlyCard>
+    </EquipEffect>
+    <RangeType>Hybrid</RangeType>
+    <BookIcon>Lobotomy</BookIcon>
+    <Chapter>6</Chapter>
+    <Episode>36491000</Episode>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>Custom_Helix</CharacterSkin>
+  </Book>
+  <Book ID="36491803">
+    <Name>한 편의 연극</Name>
+    <TextId>36491803</TextId>
+    <EquipEffect>
+      <HP>1000</HP>
+      <Break>240</Break>
+      <SpeedMin>2</SpeedMin>
+      <Speed>6</Speed>
+      <SResist>Immune</SResist>
+      <PResist>Immune</PResist>
+      <HResist>Immune</HResist>
+      <SBResist>Resist</SBResist>
+      <PBResist>Resist</PBResist>
+      <HBResist>Resist</HBResist>
+
+      <Passive>36492808</Passive>
+      <Passive>36492809</Passive>
+      <Passive>36492810</Passive>
+      <Passive>36492811</Passive>
+      <Passive>36492812</Passive>
+    
+      <OnlyCard>36492014</OnlyCard>
+      <OnlyCard>36492015</OnlyCard>
+      <OnlyCard>36492016</OnlyCard>
+      <OnlyCard>36492017</OnlyCard>
+      <OnlyCard>36492018</OnlyCard>
+    </EquipEffect>
+    <RangeType>Range</RangeType>
+    <BookIcon>Lobotomy</BookIcon>
+    <Chapter>6</Chapter>
+    <Episode>36491000</Episode>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>Custom_Matan</CharacterSkin>
+  </Book>
+  <Book ID="36491804">
+    <Name>에덴</Name>
+    <TextId>36491804</TextId>
+    <EquipEffect>
+      <HP>120</HP>
+      <Break>120</Break>
+      <SpeedMin>2</SpeedMin>
+      <Speed>6</Speed>
+      <SResist>Resist</SResist>
+      <PResist>Resist</PResist>
+      <HResist>Resist</HResist>
+      <SBResist>Endure</SBResist>
+      <PBResist>Endure</PBResist>
+      <HBResist>Endure</HBResist>
+
+      <Passive>36492813</Passive>
+      <Passive>36492814</Passive>
+    
+      <OnlyCard>36492019</OnlyCard>
+      <OnlyCard>36492020</OnlyCard>
+      <OnlyCard>36492021</OnlyCard>
+      <OnlyCard>36492022</OnlyCard>
+      <OnlyCard>36492023</OnlyCard>
+      <OnlyCard>36492024</OnlyCard>
+    </EquipEffect>
+    <BookIcon>Lobotomy</BookIcon>
+    <Chapter>6</Chapter>
+    <Episode>36491000</Episode>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>Custom_Eden</CharacterSkin>
+  </Book>
+</BookXmlRoot>

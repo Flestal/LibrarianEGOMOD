@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveXmlRoot>
+
+  <!-- 최속 -->
+  <Passive ID="36492800">
+    <Rarity>Unique</Rarity>
+    <Cost>10</Cost>
+  </Passive>
+  <!-- 거미다리 -->
+  <Passive ID="36492801">
+    <Rarity>Unique</Rarity>
+    <Cost>8</Cost>
+  </Passive>
+  <!-- 집행 -->
+  <Passive ID="36492802">
+    <Rarity>Unique</Rarity>
+    <Cost>6</Cost>
+  </Passive>
+  <!-- 아 피아체레 -->
+  <Passive ID="36492803">
+    <Rarity>Unique</Rarity>
+    <Cost>10</Cost>
+  </Passive>
+  <!-- 크레센도 -->
+  <Passive ID="36492804">
+    <Rarity>Unique</Rarity>
+    <Cost>8</Cost>
+  </Passive>
+  <!-- 칸타빌레 -->
+  <Passive ID="36492805">
+    <Rarity>Unique</Rarity>
+    <Cost>10</Cost>
+  </Passive>
+  <!-- 탑은 하늘에 닿으며 -->
+  <Passive ID="36492806">
+    <Rarity>Unique</Rarity>
+    <Cost>8</Cost>
+  </Passive>
+  <!-- 땅에는 무엇도 남기지 않으리라 -->
+  <Passive ID="36492807">
+    <Rarity>Unique</Rarity>
+    <Cost>10</Cost>
+  </Passive>
+  <!-- 발단 -->
+  <Passive ID="36492808">
+    <Rarity>Unique</Rarity>
+    <Cost>10</Cost>
+  </Passive>
+  <!-- 전개 -->
+  <Passive ID="36492809">
+    <Rarity>Unique</Rarity>
+    <Cost>10</Cost>
+  </Passive>
+  <!-- 위기 -->
+  <Passive ID="36492810">
+    <Rarity>Unique</Rarity>
+    <Cost>10</Cost>
+  </Passive>
+  <!-- 절정 -->
+  <Passive ID="36492811">
+    <Rarity>Unique</Rarity>
+    <Cost>10</Cost>
+  </Passive>
+  <!-- 결말 -->
+  <Passive ID="36492812">
+    <Rarity>Unique</Rarity>
+    <Cost>-30</Cost>
+  </Passive>
+  <!-- 금빛 날개 -->
+  <Passive ID="36492813">
+    <Rarity>Unique</Rarity>
+    <Cost>10</Cost>
+  </Passive>
+  <!-- 믿음의 과실 -->
+  <Passive ID="36492814">
+    <Rarity>Unique</Rarity>
+    <Cost>10</Cost>
+  </Passive>
+ 
+</PassiveXmlRoot>

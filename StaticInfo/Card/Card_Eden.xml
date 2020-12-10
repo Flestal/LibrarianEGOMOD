@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DiceCardXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Card ID="36492019">
+        <Name>지혜의 열매</Name>
+        <Artwork>Wedge5</Artwork>
+        <Rarity>Rare</Rarity>
+        <Spec Range="Near" Cost="0" />
+        <Option>OnlyPage</Option>
+        <Script>energy2Appple</Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="6" Dice="8" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="10" Dice="10" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+        <SortPriority>1</SortPriority>
+    </Card>
+    <Card ID="36492020">
+        <Name>생명의 열매</Name>
+        <Artwork>Wedge5</Artwork>
+        <Rarity>Rare</Rarity>
+        <Spec Range="Near" Cost="0" />
+        <Option>OnlyPage</Option>
+        <Script>heal10Appple</Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="6" Dice="8" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="10" Dice="10" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+        <SortPriority>1</SortPriority>
+    </Card>
+    <Card ID="36492021">
+        <Name>세상의 모든 지식</Name>
+        <Artwork>Wedge5</Artwork>
+        <Rarity>Rare</Rarity>
+        <Spec Range="Near" Cost="2" />
+        <Option>OnlyPage</Option>
+        <Script>ApplderScroll</Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="10" Dice="12" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="12" Dice="12" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="12" Dice="16" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+        <SortPriority>1</SortPriority>
+    </Card>
+    <Card ID="36492022">
+        <Name>지혜의 나무</Name>
+        <Artwork>SpiderNet</Artwork>
+        <Rarity>Unique</Rarity>
+        <Spec Range="Near" Cost="2" />
+        <Option>OnlyPage</Option>
+        <Script>BreakTree</Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="10" Dice="14" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="10" Dice="14" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="6" Dice="12" Type="Def" Detail="Evasion" Motion="E" EffectRes="" Script="" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+        <SortPriority>1</SortPriority>
+    </Card>
+    <Card ID="36492023">
+        <Name>생명의 나무</Name>
+        <Artwork>IndexSecond10</Artwork>
+        <Rarity>Unique</Rarity>
+        <Spec Range="Near" Cost="5" />
+        <Option>OnlyPage</Option>
+        <Script>HealthTree</Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="10" Dice="14" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="10" Dice="14" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="6" Dice="12" Type="Standby" Detail="Hit" Motion="H" EffectRes="" Script="TreeHeal" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+        <SortPriority>1</SortPriority>
+    </Card>
+    <Card ID="36492024">
+        <Name>금기</Name>
+        <Artwork>IndexSecond10</Artwork>
+        <Rarity>Unique</Rarity>
+        <Spec Range="Near" Cost="10" />
+        <Option>OnlyPage</Option>
+        <Script>Taboo</Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="40" Dice="50" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="20" Dice="40" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script="" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+        <SortPriority>1</SortPriority>
+    </Card>
+
+</DiceCardXmlRoot>

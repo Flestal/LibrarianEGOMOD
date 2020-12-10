@@ -1,0 +1,45 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>Cleared Doubt</Name>
+    <Default>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="310.5001" pivot_y="-197.5" />
+      <Head head_x="16.19995" head_y="367.6" rotation="0" head_enable="True" />
+    </Default>
+    <Guard>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="243" pivot_y="-367.6" />
+      <Head head_x="-8.100021" head_y="267.7" rotation="0" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-21.6" pivot_y="-208.3" />
+      <Head head_x="48.6" head_y="351.4" rotation="0" head_enable="True" />
+    </Evade>
+    <Damaged>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="116.1" pivot_y="-8.49999" />
+      <Head head_x="8.100021" head_y="362.2" rotation="-1.686691" head_enable="True" />
+    </Damaged>
+    <Slash>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="259.2" pivot_y="-84.10001" />
+      <Head head_x="-21.59999" head_y="356.8" rotation="0" head_enable="True" />
+    </Slash>
+    <Penetrate>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="256.4999" pivot_y="-76.00001" />
+      <Head head_x="-10.79994" head_y="356.8" rotation="0" head_enable="True" />
+    </Penetrate>
+    <Hit>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="59.4" pivot_y="-84.09998" />
+      <Head head_x="-32.4" head_y="348.7" rotation="0" head_enable="True" />
+    </Hit>
+    <Move>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="116.1001" pivot_y="-35.49998" />
+      <Head head_x="-27.00003" head_y="367.6" rotation="0" head_enable="True" />
+    </Move>
+  </ClothInfo>
+</ModInfo>

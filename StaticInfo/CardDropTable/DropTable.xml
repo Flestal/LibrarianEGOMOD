@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CardDropTableXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DropTable ID="36490500" />
+  <DropTable ID="36490501">
+    <Card>36492000</Card>
+    <Card>36492001</Card>
+    <Card>36492002</Card>
+    <Card>36492003</Card>
+    <Card>36492004</Card>
+    <Card>36492005</Card>
+    <Card>36492006</Card>
+    <Card>36492007</Card>
+    <Card>36492008</Card>
+    <Card>36492009</Card>
+    <Card>36492010</Card>
+    <Card>36492011</Card>
+    <Card>36492012</Card>
+    <Card>36492013</Card>
+    <Card>36492014</Card>
+    <Card>36492015</Card>
+    <Card>36492016</Card>
+    <Card>36492017</Card>
+    <Card>36492018</Card>
+    <Card>36492019</Card>
+    <Card>36492020</Card>
+    <Card>36492021</Card>
+    <Card>36492022</Card>
+    <Card>36492023</Card>
+    <Card>36492024</Card>
+  </DropTable>
+</CardDropTableXmlRoot>

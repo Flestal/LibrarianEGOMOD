@@ -1,0 +1,45 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>Paradise Lost E.G.O</Name>
+    <Default>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="20.25" pivot_y="-231.25" />
+      <Head head_x="28.35001" head_y="426.9999" rotation="6.31098" head_enable="True" />
+    </Default>
+    <Guard>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="20.25" pivot_y="-228.5501" />
+      <Head head_x="-14.85" head_y="436.45" rotation="4.216669" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="21.6" pivot_y="-228.55" />
+      <Head head_x="21.59999" head_y="433.75" rotation="8.433401" head_enable="True" />
+    </Evade>
+    <Damaged>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="21.6" pivot_y="-228.5501" />
+      <Head head_x="18.9" head_y="420.2501" rotation="7.590051" head_enable="True" />
+    </Damaged>
+    <Slash>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="21.6" pivot_y="-229.9" />
+      <Head head_x="-18.9" head_y="422.95" rotation="6.311023" head_enable="True" />
+    </Slash>
+    <Penetrate>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="20.25002" pivot_y="-231.25" />
+      <Head head_x="31.04998" head_y="447.2499" rotation="4.216701" head_enable="True" />
+    </Penetrate>
+    <Hit>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="20.25" pivot_y="-228.5501" />
+      <Head head_x="10.8" head_y="410.8" rotation="1.686702" head_enable="True" />
+    </Hit>
+    <Move>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="16.2" pivot_y="-229.8999" />
+      <Head head_x="-121.5" head_y="393.2499" rotation="3.373382" head_enable="True" />
+    </Move>
+  </ClothInfo>
+</ModInfo>

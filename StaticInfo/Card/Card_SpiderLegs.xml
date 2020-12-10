@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DiceCardXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Card ID="36492000">
+        <Name>가르는 정의</Name>
+        <Artwork>Wedge5</Artwork>
+        <Rarity>Rare</Rarity>
+        <Spec Range="Near" Cost="2" />
+        <Option>OnlyPage</Option>
+        <Script>SlashingJustice</Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="5" Dice="15" Type="Atk" Detail="Slash" Motion="J" EffectRes="" Script="JusticeAttack" Desc="" />
+        <Behaviour Min="5" Dice="10" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+    </Card>
+    <Card ID="36492001">
+        <Name>꿰뚫는 정의</Name>
+        <Artwork>Wedge5</Artwork>
+        <Rarity>Rare</Rarity>
+        <Spec Range="Near" Cost="2" />
+        <Option>OnlyPage</Option>
+        <Script>PenetratingJustice</Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="5" Dice="15" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="JusticeAttack" Desc="" />
+        <Behaviour Min="5" Dice="10" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+    </Card>
+    <Card ID="36492002">
+        <Name>압도하는 정의</Name>
+        <Artwork>Wedge5</Artwork>
+        <Rarity>Rare</Rarity>
+        <Spec Range="Near" Cost="2" />
+        <Option>OnlyPage</Option>
+        <Script>CrushingJustice</Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="5" Dice="15" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script="JusticeAttack" Desc="" />
+        <Behaviour Min="5" Dice="10" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+    </Card>
+    <Card ID="36492003">
+        <Name>사냥</Name>
+        <Artwork>SpiderNet</Artwork>
+        <Rarity>Unique</Rarity>
+        <Spec Range="Near" Cost="2" />
+        <Option>OnlyPage</Option>
+        <Script>SpiderHunt</Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="2" Dice="4" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script="Strength1Spider" Desc="" />
+        <Behaviour Min="1" Dice="2" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="Vulnerable1Spider" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+    </Card>
+    <Card ID="36492004">
+        <Name>집행</Name>
+        <Artwork>IndexSecond10</Artwork>
+        <Rarity>Unique</Rarity>
+        <Spec Range="Near" Cost="5" />
+        <Option>OnlyPage</Option>
+        <Script>Guillotine</Script>
+        <ScriptDesc></ScriptDesc>
+        <BehaviourList>
+        <Behaviour Min="3" Dice="7" Type="Atk" Detail="Slash" Motion="J" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="3" Dice="7" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="3" Dice="7" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script="" Desc="" />
+        </BehaviourList>
+        <Chapter>6</Chapter>
+        <Priority>1</Priority>
+    </Card>
+
+</DiceCardXmlRoot>
