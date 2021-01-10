@@ -1,10 +1,18 @@
 ﻿namespace Source
 {
-    public class DiceCardAbility_Vulnerable1Spider : DiceCardAbilityBase
+    public class DiceCardAbility_VulnerableSpider : DiceCardAbilityBase
     {
         public override void OnSucceedAttack(BattleUnitModel target)
         {
-            target.bufListDetail.AddKeywordBufByCard(KeywordBuf.Vulnerable, 1);
+            DiceCardAbility_SpiderLegs spiderlegs = behavior.abilityList.Find((DiceCardAbilityBase x) => x is DiceCardAbility_SpiderLegs) as DiceCardAbility_SpiderLegs;
+            if (spiderlegs != null)
+            {
+                target.bufListDetail.AddKeywordBufByCard(KeywordBuf.Vulnerable, spiderlegs.count_repeat);
+            }
+            else
+            {
+                target.bufListDetail.AddKeywordBufByCard(KeywordBuf.Vulnerable, 1);
+            }
         }
     }
 }

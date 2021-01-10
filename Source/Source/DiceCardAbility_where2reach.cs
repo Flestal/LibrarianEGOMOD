@@ -7,42 +7,30 @@ namespace Source
     {
         public override void OnWinParryingDefense()
         {
-            List<BattleUnitModel> aliveList = BattleObjectManager.instance.GetAliveList((base.owner.faction == Faction.Player) ? Faction.Enemy : Faction.Player);
-            if (aliveList.Count > 0)
+            PassiveAbility_36492806 passive = this.owner.passiveDetail.PassiveList.Find((PassiveAbilityBase x) => x is PassiveAbility_36492806) as PassiveAbility_36492806;
+            passive.flag_where2reach_toggle = true;
+            if (passive.speedAdder < 4)
             {
-                BattleUnitModel target = RandomUtil.SelectOne<BattleUnitModel>(aliveList);
-                List<BattleDiceCardModel> cardlist = base.owner.allyCardDetail.GetHand().FindAll((BattleDiceCardModel x) => x.GetID() == 36492010);
-                BattleDiceCardModel card_ = RandomUtil.SelectOne<BattleDiceCardModel>(cardlist);
-                if (card_ != null)
-                {
-                    BattlePlayingCardDataInUnitModel useCard = this.card;
-                    useCard.card = card_;
-                    useCard.cardAbility = card_.CreateDiceCardSelfAbilityScript();
-                    useCard.owner = this.owner;
-                    Singleton<StageController>.Instance.AddAllCardListInBattle(useCard, target);
-                }
+                passive.speedAdder++;
             }
+            BattleDiceCardModel newCard = this.owner.allyCardDetail.AddNewCard(36492010);
+            newCard.SetCurrentCost(0);
+            newCard.temporary = true;
         }
     }
     public class DiceCardAbility_Where2reach2 : DiceCardAbilityBase
     {
         public override void OnWinParryingDefense()
         {
-            List<BattleUnitModel> aliveList = BattleObjectManager.instance.GetAliveList((base.owner.faction == Faction.Player) ? Faction.Enemy : Faction.Player);
-            if (aliveList.Count > 0)
+            PassiveAbility_36492806 passive = this.owner.passiveDetail.PassiveList.Find((PassiveAbilityBase x) => x is PassiveAbility_36492806) as PassiveAbility_36492806;
+            passive.flag_where2reach_toggle = true;
+            if (passive.speedAdder < 4)
             {
-                BattleUnitModel target = RandomUtil.SelectOne<BattleUnitModel>(aliveList);
-                List<BattleDiceCardModel> cardlist = base.owner.allyCardDetail.GetHand().FindAll((BattleDiceCardModel x) => x.GetID() == 36492011);
-                BattleDiceCardModel card_ = RandomUtil.SelectOne<BattleDiceCardModel>(cardlist);
-                if (card_ != null)
-                {
-                    BattlePlayingCardDataInUnitModel useCard = this.card;
-                    useCard.card = card_;
-                    useCard.cardAbility = card_.CreateDiceCardSelfAbilityScript();
-                    useCard.owner = this.owner;
-                    Singleton<StageController>.Instance.AddAllCardListInBattle(useCard, target);
-                }
+                passive.speedAdder++;
             }
+            BattleDiceCardModel newCard = this.owner.allyCardDetail.AddNewCard(36492011);
+            newCard.SetCurrentCost(0);
+            newCard.temporary = true;
         }
     }
     public class DiceCardAbility_Understanding : DiceCardAbilityBase

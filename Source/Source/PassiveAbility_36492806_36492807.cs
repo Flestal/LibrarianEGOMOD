@@ -7,18 +7,29 @@ namespace Source
         //탑은 하늘에 닿으며
         public override int SpeedDiceNumAdder()
         {
-            return 3;
+            return 3+speedAdder;
         }
         public override void OnWaveStart()
         {
-            flag_question = false;
-            flag_understanding = false;
-            flag_where2reach = false;
+            this.flag_question = false;
+            this.flag_understanding = false;
+            this.flag_where2reach = false;
+            this.flag_where2reach_toggle = false;
+            speedAdder = 0;
         }
         public override void OnRoundStart()
         {
             this.owner.bufListDetail.AddKeywordBufThisRoundByEtc(KeywordBuf.Strength, 2);
             this.owner.bufListDetail.AddKeywordBufThisRoundByEtc(KeywordBuf.Quickness, 2);
+        }
+        public override void OnRoundEnd()
+        {
+            if (this.flag_where2reach_toggle)
+            {
+                this.flag_where2reach_toggle = false;
+                return;
+            }
+            this.speedAdder = 0;
         }
         public override void OnUseCard(BattlePlayingCardDataInUnitModel curCard)
         {
@@ -38,6 +49,8 @@ namespace Source
         public bool flag_question;
         public bool flag_understanding;
         public bool flag_where2reach;
+        public int speedAdder;
+        public bool flag_where2reach_toggle;
     }
     public class PassiveAbility_36492807 : PassiveAbilityBase
     {

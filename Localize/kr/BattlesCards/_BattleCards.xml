@@ -8,7 +8,7 @@
     </BattleCardDesc>
     <BattleCardDesc ID="36492001">
       <LocalizedName>꿰뚫는 정의</LocalizedName>
-      <Ability>이 책장으로 피해를 20 이상 누적할 시 무작위 대상에게 이 책장을 재사용</Ability>
+      <Ability>이 책장으로 피해를 30 이상 누적할 시 무작위 대상에게 이 책장을 재사용</Ability>
       <!-- <Behaviour ID="0">[적중] 마지막 주사위 강화, 긍정 감정 1 누적</Behaviour> -->
     </BattleCardDesc>
     <BattleCardDesc ID="36492002">
@@ -18,7 +18,7 @@
     </BattleCardDesc>
     <BattleCardDesc ID="36492003">
       <LocalizedName>사냥</LocalizedName>
-      <Ability>[사용 시] 대상에게 허약 3, 무장 해제 3 부여</Ability>
+      <Ability>[사용 시] 대상에게 허약 3, 무장 해제 3 부여, 누적된 힘 수치 초기화</Ability>
       <!-- <Behaviour ID="0">[적중] 다음 막에 힘 1을 받음</Behaviour>
       <Behaviour ID="1">[적중] 다음 막에 취약 1 부여</Behaviour> -->
     </BattleCardDesc>
@@ -66,7 +66,7 @@
     </BattleCardDesc>
     <BattleCardDesc ID="36492012">
       <LocalizedName>닿아야 하는 곳</LocalizedName>
-      <Ability>[사용 시] 모든 '의문'과 '이해의 과정'을 뽑음</Ability>
+      <Ability/>
       <!-- <Behaviour ID="0">[합 승리] 무작위 대상에 '의문'을 사용함</Behaviour>
       <Behaviour ID="1">[합 승리] 무작위 대상에 '이해의 과정'을 사용함</Behaviour> -->
     </BattleCardDesc>
@@ -91,7 +91,7 @@
     </BattleCardDesc>
     <BattleCardDesc ID="36492017">
       <LocalizedName>애드리브</LocalizedName>
-      <Ability>[전투 시작] 모든 주사위를 버리고 대상의 가장 약한 속성으로 10~15 주사위를 3개 추가함</Ability>
+      <Ability>[전투 시작] 모든 주사위를 버리고 대상의 가장 약한 속성으로 15~20 주사위를 3개 추가함</Ability>
     </BattleCardDesc>
     <BattleCardDesc ID="36492018">
       <LocalizedName>페이드 아웃</LocalizedName>

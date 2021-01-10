@@ -67,7 +67,7 @@ namespace Source
                 }
             }
         }
-        private int activate = 20;
+        private int activate = 30;
         private int totalDamage;
     }
     public class DiceCardSelfAbility_CrushingJustice : DiceCardSelfAbilityBase

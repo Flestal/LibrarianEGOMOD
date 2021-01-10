@@ -4,14 +4,22 @@ namespace Source
 {
     class DiceCardAbility_SpiderLegs:DiceCardAbilityBase
     {
+        public override bool IsDoublePower()
+        {
+            if (this.count_repeat == 7)
+            {
+                return true;
+            }
+            return false;
+        }
         public override void AfterAction()
         {
-            if (this._count < 7)
+            if (this.count_repeat < 7)
             {
-                this._count++;
+                this.count_repeat++;
                 base.ActivateBonusAttackDice();
             }
         }
-        private int _count;
+        public int count_repeat;
     }
 }

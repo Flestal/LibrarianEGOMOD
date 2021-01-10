@@ -15,7 +15,15 @@ namespace Source
     }
     public class DiceCardAbility_repeat7Helix : DiceCardAbilityBase
     {
-        public override void AfterAction()
+        /*public override void AfterAction()
+        {
+            if (this._repeatCount < 6)
+            {
+                this._repeatCount++;
+                base.ActivateBonusAttackDice();
+            }
+        }*/
+        public override void OnSucceedAreaAttack(BattleUnitModel target)
         {
             if (this._repeatCount < 6)
             {

@@ -32,6 +32,18 @@ namespace Source
 
             }
         }
+        public override void OnWaveStart()
+        {
+            strengthAdder = 0;
+        }
+        public override void OnRoundStart()
+        {
+            if (strengthAdder > 0)
+            {
+                this.owner.bufListDetail.AddKeywordBufByEtc(KeywordBuf.Strength, strengthAdder);
+            }
+        }
+        public int strengthAdder;
     }
     public class PassiveAbility_36492802 : PassiveAbilityBase
     {
@@ -39,7 +51,7 @@ namespace Source
         public override void OnWinParrying(BattleDiceBehavior behavior)
         {
             BattleUnitModel target = behavior.card.target;
-            target.TakeDamage(Convert.ToInt32((target.hp * 0.05) + 1), this.owner, true);
+            target.TakeDamage(Convert.ToInt32((target.hp * 0.05) + 1), this.owner);
             target.TakeBreakDamage(Convert.ToInt32((target.breakDetail.breakGauge * 0.05) + 1), this.owner);
         }
     }

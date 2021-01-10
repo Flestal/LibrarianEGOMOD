@@ -54,8 +54,8 @@
         <Script>SpiderHunt</Script>
         <ScriptDesc></ScriptDesc>
         <BehaviourList>
-        <Behaviour Min="2" Dice="4" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script="Strength1Spider" Desc="" />
-        <Behaviour Min="1" Dice="2" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="Vulnerable1Spider" Desc="" />
+        <Behaviour Min="2" Dice="4" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script="StrengthSpider" Desc="" />
+        <Behaviour Min="1" Dice="2" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="VulnerableSpider" Desc="" />
         </BehaviourList>
         <Chapter>6</Chapter>
         <Priority>1</Priority>

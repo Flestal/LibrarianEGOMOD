@@ -91,7 +91,7 @@ namespace Source
         }
         public override void OnUseCard()
         {
-            this.owner.TakeDamage(7, null, false);
+            this.owner.TakeDamage(7, null);
             this.card.ApplyDiceStatBonus(DiceMatch.AllDice, new DiceStatBonus
             {
                 power = 4

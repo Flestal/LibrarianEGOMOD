@@ -2,14 +2,14 @@
 <DiceCardXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Card ID="36492010">
         <Name>의문</Name>
-        <Artwork>SilentOrchestra_Music</Artwork>
+        <Artwork>Question</Artwork>
         <Rarity>Uncommon</Rarity>
         <Spec Range="Near" Cost="1" />
         <Option>OnlyPage</Option>
         <Script>Question</Script>
         <ScriptDesc></ScriptDesc>
         <BehaviourList>
-        <Behaviour Min="4" Dice="6" Type="Atk" Detail="Slash" Motion="J" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="4" Dice="6" Type="Atk" Detail="Slash" Motion="J" EffectRes="" Script="drawCard1atk" Desc="" />
         <Behaviour Min="7" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="repeat3" Desc="" />
         </BehaviourList>
         <Chapter>6</Chapter>
@@ -17,7 +17,7 @@
     </Card>
     <Card ID="36492011">
         <Name>이해의 과정</Name>
-        <Artwork>SilentOrchestra_Music</Artwork>
+        <Artwork>Understanding</Artwork>
         <Rarity>Rare</Rarity>
         <Spec Range="Near" Cost="2" />
         <Option>OnlyPage</Option>
@@ -32,7 +32,7 @@
     </Card>
     <Card ID="36492012">
         <Name>닿아야 하는 곳</Name>
-        <Artwork>SilentOrchestra_Music</Artwork>
+        <Artwork>Where2reach</Artwork>
         <Rarity>Unique</Rarity>
         <Spec Range="Near" Cost="4" />
         <Option>OnlyPage</Option>
@@ -47,14 +47,17 @@
     </Card>
     <Card ID="36492013">
         <Name>끝의 나선</Name>
-        <Artwork>SilentOrchestra_Finale</Artwork>
+        <Artwork>Helix</Artwork>
         <Rarity>Unique</Rarity>
-        <Spec Range="FarAreaEach" Cost="1" Affection="Team"/>
+        <Spec Range="FarArea" Cost="1" Affection="Team"/>
         <Option>OnlyPage</Option>
         <Script>Helix</Script>
         <ScriptDesc></ScriptDesc>
         <BehaviourList>
-        <Behaviour Min="30" Dice="40" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="repeat7Helix" ActionScript="cryingchild_eyelaser" Desc="" />
+        <Behaviour Min="5" Dice="10" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" ActionScript="cryingchild_eyelaser" Desc="" />
+        <Behaviour Min="10" Dice="20" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" ActionScript="cryingchild_eyelaser" Desc="" />
+        <Behaviour Min="20" Dice="40" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" ActionScript="cryingchild_eyelaser" Desc="" />
+        <Behaviour Min="40" Dice="60" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" ActionScript="cryingchild_eyelaser" Desc="" />
         </BehaviourList>
         <Chapter>6</Chapter>
         <Priority>1</Priority>

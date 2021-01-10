@@ -30,9 +30,16 @@ namespace Source
     public class PassiveAbility_36492814 : PassiveAbilityBase
     {
         //믿음의 과실
-        public override void OnSucceedAttack(BattleDiceBehavior behavior)
+        /*public override void OnSucceedAttack(BattleDiceBehavior behavior)
         {
             Buf_Apple.AddBuf(behavior.card.target);
+        }*/
+        public override void OnSucceedAttack(BattleDiceBehavior behavior)
+        {
+            if (behavior.Detail==LOR_DiceSystem.BehaviourDetail.Slash||behavior.Detail==LOR_DiceSystem.BehaviourDetail.Penetrate)
+            {
+                Buf_Apple.AddBuf(behavior.card.target);
+            }
         }
         public class Buf_Apple : BattleUnitBuf
         {

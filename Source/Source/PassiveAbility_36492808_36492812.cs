@@ -32,6 +32,10 @@ namespace Source
         {
             this.owner.allyCardDetail.AddNewCard(ThumbBulletClass.GetRandomBulletId());
         }
+        public override void OnWaveStart()
+        {
+            DamageSum = 0;
+        }
         public override void OnRoundStart()
         {
             bulletCount = 0;
@@ -67,6 +71,7 @@ namespace Source
             bulletCount = 0;
         }
         private int bulletCount;
+        public int DamageSum;
     }
     public class PassiveAbility_36492810 : PassiveAbilityBase
     {

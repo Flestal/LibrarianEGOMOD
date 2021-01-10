@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Source
 {
-    public class DiceCardSelfAbility_FadeIn : DiceCardSelfAbilityBase
+    public class DiceCardSelfAbility_Fadein : DiceCardSelfAbilityBase
     {
         public override string[] Keywords
         {
@@ -131,7 +131,13 @@ namespace Source
         }
         public override void OnEndBattle()
         {
-            this.card.target.breakDetail.DestroyBreakPoint();
+            BattleUnitModel battleUnitModel = this.card.target;
+            if (battleUnitModel != null)
+            {
+                battleUnitModel.breakDetail.breakLife--;
+                battleUnitModel.breakDetail.breakGauge = 0;
+                battleUnitModel.breakDetail.DestroyBreakPoint();
+            }
         }
     }
 }

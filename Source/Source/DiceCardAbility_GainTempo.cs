@@ -21,4 +21,11 @@
             Buf_Tempo.AddBuf(this.owner, 3);
         }
     }
+    public class DiceCardAbility_Gain4Tempo : DiceCardAbilityBase
+    {
+        public override void OnSucceedAttack()
+        {
+            Buf_Tempo.AddBuf(this.owner, 4);
+        }
+    }
 }

@@ -13,11 +13,7 @@ namespace Source
                 };
             }
         }
-        public override void OnUseCard()
-        {
-            this.owner.allyCardDetail.DrawCardsAllSpecific(36492010);
-            this.owner.allyCardDetail.DrawCardsAllSpecific(36492011);
-        }
+        
     }
     public class DiceCardSelfAbility_Question : DiceCardSelfAbilityBase
     {
@@ -69,10 +65,13 @@ namespace Source
         public override bool OnChooseCard(BattleUnitModel owner)
         {
             //dice.abilityList.Exists((DiceCardAbilityBase x) => x is DiceCardAbility_SpiderLegs)
-            if (this.owner.passiveDetail.PassiveList.Exists((PassiveAbilityBase x)=>x is PassiveAbility_36492806))
+            if (owner.passiveDetail.PassiveList.Exists((PassiveAbilityBase x)=>x is PassiveAbility_36492806))
             {
-                PassiveAbility_36492806 passive = this.owner.passiveDetail.PassiveList.Find((PassiveAbilityBase x) => x is PassiveAbility_36492806) as PassiveAbility_36492806;
-                return passive.flag_question && passive.flag_understanding && passive.flag_where2reach;
+                PassiveAbility_36492806 passive = owner.passiveDetail.PassiveList.Find((PassiveAbilityBase x) => x is PassiveAbility_36492806) as PassiveAbility_36492806;
+                if(passive.flag_question && passive.flag_understanding && passive.flag_where2reach)
+                {
+                    return true;
+                }
             }
             return false;
         }

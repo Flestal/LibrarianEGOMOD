@@ -3,11 +3,11 @@
   <BattleCardAbility ID="JusticeAttack">
     <Desc>[적중] 마지막 주사위 강화, 긍정 감정 1 누적</Desc>
   </BattleCardAbility>
-  <BattleCardAbility ID="Strength1Spider">
-    <Desc>[적중] 다음 막에 힘 1을 받음</Desc>
+  <BattleCardAbility ID="StrengthSpider">
+    <Desc>[적중] 이 주사위의 재사용 횟수만큼 다음 막부터 힘을 받음</Desc>
   </BattleCardAbility>
-  <BattleCardAbility ID="Vulnerable1Spider">
-    <Desc>[적중] 다음 막에 취약 1 부여</Desc>
+  <BattleCardAbility ID="VulnerableSpider">
+    <Desc>[적중] 이 주사위의 재사용 횟수만큼 다음 막에 취약 부여</Desc>
   </BattleCardAbility>
   <BattleCardAbility ID="Gain1Tempo">
     <Desc>[적중] 템포 1을 얻음</Desc>
@@ -18,6 +18,9 @@
   <BattleCardAbility ID="Gain3Tempo">
     <Desc>[적중] 템포 3을 얻음</Desc>
   </BattleCardAbility>
+  <BattleCardAbility ID="Gain4Tempo">
+    <Desc>[적중] 템포 4를 얻음</Desc>
+  </BattleCardAbility>
   <BattleCardAbility ID="Understanding">
     <Desc>[적중] 대상의 모든 수비 주사위 파괴</Desc>
   </BattleCardAbility>
@@ -25,16 +28,23 @@
     <Desc>이 주사위는 5번 사용한다</Desc>
   </BattleCardAbility>
   <BattleCardAbility ID="Where2reach1">
-    <Desc>[합 승리] 무작위 대상에 '의문'을 사용함</Desc>
+    <Desc>[합 승리] 다음 막에 속도 주사위 1개 추가, 손에 '의문'을 1장 추가함</Desc>
   </BattleCardAbility>
   <BattleCardAbility ID="Where2reach2">
-    <Desc>[합 승리] 무작위 대상에 '이해의 과정'을 사용함</Desc>
+    <Desc>[합 승리] 다음 막에 속도 주사위 1개 추가, 손에 '이해의 과정'을 1장 추가함</Desc>
   </BattleCardAbility>
   <BattleCardAbility ID="repeat7Helix">
     <Desc>이 주사위는 7번 사용한다</Desc>
   </BattleCardAbility>
   <BattleCardAbility ID="FadeIn">
-    <Desc>[사용 시] 빛 2 회복</Desc>
+    <Desc>[적중] 빛 2 회복
+    [합 승리] 이 주사위를 다시 사용한다</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="OverLap">
+    <Desc>[합 승리] 이 주사위를 다시 사용한다</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Closeup">
+    <Desc>이 책장으로 누적된 원래 주사위 값만큼 위력이 증가한다</Desc>
   </BattleCardAbility>
   <BattleCardAbility ID="TreeHeal">
     <Desc>[적중] 3만큼 체력 회복</Desc>

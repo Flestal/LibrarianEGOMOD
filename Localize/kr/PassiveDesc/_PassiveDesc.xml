@@ -7,7 +7,7 @@
   </PassiveDesc>
   <PassiveDesc ID="36492801">
     <Name>거미다리</Name>
-    <Desc>모든 공격 주사위를 8회 사용한다</Desc>
+    <Desc>모든 공격 주사위를 8회 사용한다, 8번째 재사용하는 주사위는 위력의 효과를 2배로 받는다.</Desc>
   </PassiveDesc>
   <PassiveDesc ID="36492802">
     <Name>집행</Name>
@@ -59,7 +59,7 @@
   </PassiveDesc>
   <PassiveDesc ID="36492814">
     <Name>믿음의 과실</Name>
-    <Desc>적중 시 상대에게 지혜의 열매 부여</Desc>
+    <Desc>참격이나 관통 속성으로 피해를 줄 시 상대에게 지혜의 열매 부여</Desc>
   </PassiveDesc>
 
 </PassiveDescRoot>
