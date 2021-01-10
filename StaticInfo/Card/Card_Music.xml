@@ -9,10 +9,10 @@
         <Script>PowerUp1Tempo</Script>
         <ScriptDesc></ScriptDesc>
         <BehaviourList>
-        <Behaviour Min="3" Dice="8" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="Gain1Tempo" Desc="" />
-        <Behaviour Min="4" Dice="8" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="Gain2Tempo" Desc="" />
-        <Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="Gain3Tempo" Desc="" />
-        <Behaviour Min="3" Dice="3" Type="Standby" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="5" Dice="12" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="Gain1Tempo" Desc="" />
+        <Behaviour Min="6" Dice="12" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="Gain2Tempo" Desc="" />
+        <Behaviour Min="6" Dice="14" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="Gain3Tempo" Desc="" />
+        <Behaviour Min="5" Dice="5" Type="Standby" Detail="Penetrate" Motion="F" EffectRes="" Script="drawCard1atk" Desc="" />
         </BehaviourList>
         <Chapter>6</Chapter>
         <Priority>1</Priority>
@@ -26,9 +26,9 @@
         <Script>PowerUp2Tempo</Script>
         <ScriptDesc></ScriptDesc>
         <BehaviourList>
-        <Behaviour Min="4" Dice="9" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="Gain2Tempo" Desc="" />
-        <Behaviour Min="5" Dice="10" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="Gain4Tempo" Desc="" />
-        <Behaviour Min="5" Dice="5" Type="Standby" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="6" Dice="14" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="Gain2Tempo" Desc="" />
+        <Behaviour Min="7" Dice="14" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="Gain4Tempo" Desc="" />
+        <Behaviour Min="7" Dice="7" Type="Standby" Detail="Penetrate" Motion="F" EffectRes="" Script="drawCard1atk" Desc="" />
         </BehaviourList>
         <Chapter>6</Chapter>
         <Priority>1</Priority>
@@ -42,9 +42,9 @@
         <Script>PowerUp2Tempo</Script>
         <ScriptDesc></ScriptDesc>
         <BehaviourList>
-        <Behaviour Min="6" Dice="10" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="Gain3Tempo" Desc="" />
-        <Behaviour Min="7" Dice="10" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="Gain4Tempo" Desc="" />
-        <Behaviour Min="6" Dice="6" Type="Standby" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="6" Dice="15" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="Gain3Tempo" Desc="" />
+        <Behaviour Min="7" Dice="15" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="Gain4Tempo" Desc="" />
+        <Behaviour Min="9" Dice="9" Type="Standby" Detail="Penetrate" Motion="F" EffectRes="" Script="drawCard1atk" Desc="" />
         </BehaviourList>
         <Chapter>6</Chapter>
         <Priority>1</Priority>
@@ -58,10 +58,10 @@
         <Script>PowerUp3Tempo</Script>
         <ScriptDesc></ScriptDesc>
         <BehaviourList>
-        <Behaviour Min="9" Dice="12" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
-        <Behaviour Min="9" Dice="12" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
-        <Behaviour Min="9" Dice="12" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
-        <Behaviour Min="9" Dice="9" Type="Standby" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="12" Dice="15" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="12" Dice="15" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="12" Dice="15" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="15" Dice="15" Type="Standby" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
         </BehaviourList>
         <Chapter>6</Chapter>
         <Priority>1</Priority>
@@ -75,10 +75,10 @@
         <Script>Need15Tempo</Script>
         <ScriptDesc></ScriptDesc>
         <BehaviourList>
-        <Behaviour Min="10" Dice="20" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
-        <Behaviour Min="20" Dice="30" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
-        <Behaviour Min="30" Dice="40" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
-        <Behaviour Min="20" Dice="30" Type="Standby" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="15" Dice="30" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" ActionScript="netzachboss_orchestra_movement_1" Desc="" />
+        <Behaviour Min="25" Dice="40" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" ActionScript="netzachboss_orchestra_movement_2" Desc="" />
+        <Behaviour Min="35" Dice="50" Type="Atk" Detail="Penetrate" Motion="F" EffectRes="" Script="" ActionScript="netzachboss_orchestra_movement_5" Desc="" />
+        <Behaviour Min="30" Dice="40" Type="Standby" Detail="Penetrate" Motion="F" EffectRes="" Script="" Desc="" />
         </BehaviourList>
         <Chapter>6</Chapter>
         <Priority>1</Priority>
