@@ -11,7 +11,7 @@ namespace Source
             {
                 return;
             }
-            passive.strengthAdder += spiderlegs.count_repeat;
+            passive.strengthAdder += spiderlegs.count_repeat+1;
         }
     }
 }

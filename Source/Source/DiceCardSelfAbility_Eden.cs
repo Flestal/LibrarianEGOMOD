@@ -53,7 +53,7 @@ namespace Source
         {
             this.owner.cardSlotDetail.RecoverPlayPointByCard(2);
             this.owner.allyCardDetail.DrawCards(2);
-            this.owner.TakeBreakDamage(4, null, AtkResist.Normal);
+            this.owner.TakeBreakDamage(4,DamageType.Card_Ability, null, AtkResist.Normal);
         }
     }
     public class DiceCardSelfAbility_BreakTree : DiceCardSelfAbilityBase
@@ -70,7 +70,7 @@ namespace Source
         }
         public override void OnUseCard()
         {
-            this.owner.TakeBreakDamage(7, null, AtkResist.Normal);
+            this.owner.TakeBreakDamage(7,DamageType.Card_Ability, null, AtkResist.Normal);
             this.card.ApplyDiceStatBonus(DiceMatch.AllDice, new DiceStatBonus
             {
                 power = 4
@@ -91,7 +91,7 @@ namespace Source
         }
         public override void OnUseCard()
         {
-            this.owner.TakeDamage(7, null);
+            this.owner.TakeDamage(7, DamageType.Card_Ability,null);
             this.card.ApplyDiceStatBonus(DiceMatch.AllDice, new DiceStatBonus
             {
                 power = 4

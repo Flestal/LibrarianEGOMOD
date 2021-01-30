@@ -54,17 +54,15 @@ namespace Source
         public override void AfterGiveDamage(int damage)
         {
             this.totalDamage += damage;
-        }
-        public override void OnEndBattle()
-        {
-            if (totalDamage >= activate)
+            BattleUnitModel target = this.card.target;
+            int j = RandomUtil.Range(0, 2);
+            if (j == 0)
             {
-                List<BattleUnitModel> alivelist = BattleObjectManager.instance.GetAliveList((base.owner.faction == Faction.Player) ? Faction.Enemy : Faction.Player);
-                if (alivelist.Count > 0)
-                {
-                    BattleUnitModel target = RandomUtil.SelectOne<BattleUnitModel>(alivelist);
-                    Singleton<StageController>.Instance.AddAllCardListInBattle(this.card, target);
-                }
+                target.TakeDamage(RandomUtil.Range(1, 9), DamageType.Card_Ability, this.owner);
+            }
+            else
+            {
+                target.TakeBreakDamage(RandomUtil.Range(1, 9), DamageType.Card_Ability, this.owner);
             }
         }
         private int activate = 30;

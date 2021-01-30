@@ -51,8 +51,8 @@ namespace Source
         public override void OnWinParrying(BattleDiceBehavior behavior)
         {
             BattleUnitModel target = behavior.card.target;
-            target.TakeDamage(Convert.ToInt32((target.hp * 0.05) + 1), this.owner);
-            target.TakeBreakDamage(Convert.ToInt32((target.breakDetail.breakGauge * 0.05) + 1), this.owner);
+            target.TakeDamage(Convert.ToInt32((target.hp * 0.05) + 1), DamageType.Passive,this.owner);
+            target.TakeBreakDamage(Convert.ToInt32((target.breakDetail.breakGauge * 0.05) + 1), DamageType.Passive,this.owner);
         }
     }
 }

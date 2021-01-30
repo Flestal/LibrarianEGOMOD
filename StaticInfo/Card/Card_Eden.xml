@@ -10,7 +10,7 @@
         <ScriptDesc></ScriptDesc>
         <BehaviourList>
         <Behaviour Min="8" Dice="10" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script="" Desc="" />
-        <Behaviour Min="12" Dice="12" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="12" Dice="12" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="EdenGuard" Desc="" />
         </BehaviourList>
         <Chapter>6</Chapter>
         <Priority>1</Priority>
@@ -26,14 +26,14 @@
         <ScriptDesc></ScriptDesc>
         <BehaviourList>
         <Behaviour Min="8" Dice="10" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script="" Desc="" />
-        <Behaviour Min="12" Dice="12" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="12" Dice="12" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="EdenGuard" Desc="" />
         </BehaviourList>
         <Chapter>6</Chapter>
         <Priority>1</Priority>
         <SortPriority>1</SortPriority>
     </Card>
     <Card ID="36492021">
-        <Name>세상의 모든 지식</Name>
+        <Name>정신 방패</Name>
         <Artwork>Wedge5</Artwork>
         <Rarity>Rare</Rarity>
         <Spec Range="Near" Cost="2" />
@@ -42,8 +42,8 @@
         <ScriptDesc></ScriptDesc>
         <BehaviourList>
         <Behaviour Min="12" Dice="14" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script="" Desc="" />
-        <Behaviour Min="14" Dice="14" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" Desc="" />
-        <Behaviour Min="14" Dice="18" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="14" Dice="14" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="EdenGuard" Desc="" />
+        <Behaviour Min="14" Dice="18" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="EdenGuard" Desc="" />
         </BehaviourList>
         <Chapter>6</Chapter>
         <Priority>1</Priority>
@@ -87,7 +87,7 @@
         <Name>금기</Name>
         <Artwork>IndexSecond10</Artwork>
         <Rarity>Unique</Rarity>
-        <Spec Range="Near" Cost="10" />
+        <Spec Range="Near" Cost="7" />
         <Option>OnlyPage</Option>
         <Script>Taboo</Script>
         <ScriptDesc></ScriptDesc>

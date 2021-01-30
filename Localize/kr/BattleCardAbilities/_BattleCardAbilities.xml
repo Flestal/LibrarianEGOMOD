@@ -49,4 +49,7 @@
   <BattleCardAbility ID="TreeHeal">
     <Desc>[적중] 3만큼 체력 회복</Desc>
   </BattleCardAbility>
+  <BattleCardAbility ID="EdenGuard">
+    <Desc>[합 승리] 최대 3회까지 이 주사위를 재활용</Desc>
+  </BattleCardAbility>
 </BattleCardAbilityDescRoot>

@@ -59,7 +59,7 @@ namespace Source
         {
             foreach (BattleUnitModel target in BattleObjectManager.instance.GetAliveList((base.owner.faction == Faction.Enemy) ? Faction.Player : Faction.Enemy))
             {
-                target.TakeBreakDamage(behavior.DiceResultDamage, this.owner, target.GetResistBP(behavior.Detail));
+                target.TakeBreakDamage(behavior.DiceResultDamage, DamageType.Passive,this.owner, target.GetResistBP(behavior.Detail));
             }
         }
     }

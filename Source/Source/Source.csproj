@@ -362,6 +362,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Buf_Tempo.cs" />
+    <Compile Include="DiceCardAbility_Eden.cs" />
     <Compile Include="DiceCardAbility_GunnerOverClock1.cs" />
     <Compile Include="DiceCardAbility_drama.cs" />
     <Compile Include="DiceCardAbility_where2reach.cs" />
