@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DiceCardXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Card ID="36492900">
+    <Name>독니</Name>
+    <Artwork>Nosferatu_EGO_Green</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Instance" Cost="1" />
+    <Script>SpiderFang</Script>
+    <ScriptDesc></ScriptDesc>
+    <BehaviourList>
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <Priority>0</Priority>
+  </Card>
+  <Card ID="36492901">
+    <Name>즉석 복제</Name>
+    <Artwork>Rcorp16</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Instance" Cost="0" />
+    <Script>InstantCopy</Script>
+    <ScriptDesc></ScriptDesc>
+    <BehaviourList>
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <Priority>0</Priority>
+  </Card>
+  <Card ID="36492902">
+    <Name>회복 탄환</Name>
+    <Artwork>Rcorp8</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Instance" Cost="0" />
+    <Script>InstantHeal</Script>
+    <ScriptDesc></ScriptDesc>
+    <BehaviourList>
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <Priority>0</Priority>
+  </Card>
+  <Card ID="36492903">
+    <Name>휴식 탄환</Name>
+    <Artwork>Rcorp8</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Instance" Cost="0" />
+    <Script>InstantRelax</Script>
+    <ScriptDesc></ScriptDesc>
+    <BehaviourList>
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <Priority>0</Priority>
+  </Card>
+  <Card ID="36492904">
+    <Name>과부하 탄환</Name>
+    <Artwork>Rcorp8</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Instance" Cost="0" />
+    <Script>InstantOverPower</Script>
+    <ScriptDesc></ScriptDesc>
+    <BehaviourList>
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <Priority>0</Priority>
+  </Card>
+  <Card ID="36492905">
+    <Name>고속 탄환</Name>
+    <Artwork>Rcorp8</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Instance" Cost="0" />
+    <Script>InstantDamage</Script>
+    <ScriptDesc></ScriptDesc>
+    <BehaviourList>
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <Priority>0</Priority>
+  </Card>
+
+</DiceCardXmlRoot>

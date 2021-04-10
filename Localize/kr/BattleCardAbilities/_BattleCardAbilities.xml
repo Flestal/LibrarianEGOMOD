@@ -3,11 +3,14 @@
   <BattleCardAbility ID="JusticeAttack">
     <Desc>[적중] 마지막 주사위 강화, 긍정 감정 1 누적</Desc>
   </BattleCardAbility>
-  <BattleCardAbility ID="StrengthSpider">
-    <Desc>[적중] 이 주사위의 재사용 횟수만큼 다음 막부터 힘을 받음</Desc>
+  <BattleCardAbility ID="FangSpider">
+    <Desc>[적중] 상대에게 독니 1 부여</Desc>
   </BattleCardAbility>
   <BattleCardAbility ID="VulnerableSpider">
     <Desc>[적중] 이 주사위의 재사용 횟수만큼 다음 막에 취약 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="SpiderFang">
+    <Desc>[장착시 발동] 대상에게 맹독 1 부여</Desc>
   </BattleCardAbility>
   <BattleCardAbility ID="Gain1Tempo">
     <Desc>[적중] 템포 1을 얻음</Desc>
@@ -51,5 +54,20 @@
   </BattleCardAbility>
   <BattleCardAbility ID="EdenGuard">
     <Desc>[합 승리] 최대 3회까지 이 주사위를 재활용</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="InstantCopy">
+    <Desc>[장착시 발동] 상대에게 맹독 1 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="InstantHeal">
+    <Desc>[장착시 발동] 대상의 체력, 흐트러짐 저항 10 회복</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="InstantRelax">
+    <Desc>[장착시 발동] 대상의 빛 1 회복, 전투 책장을 1장 뽑음</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="InstantOverPower">
+    <Desc>[장착시 발동] 대상에게 힘 2, 마비 1 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="InstantDamage">
+    <Desc>[장착시 발동] 대상에게 10 피해를 입힘</Desc>
   </BattleCardAbility>
 </BattleCardAbilityDescRoot>

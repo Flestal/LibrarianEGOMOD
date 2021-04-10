@@ -24,6 +24,11 @@ namespace Source
         {
 			base.ActivateBonusAttackDice();
 		}
+        public override void AfterAction()
+        {
+            base.AfterAction();
+			Buf_BulletLoad.AddBuf(this.owner, 1);
+		}
     }
 	public class DiceCardAbility_OverLap : DiceCardAbilityBase
     {
@@ -41,6 +46,11 @@ namespace Source
         {
 			base.ActivateBonusAttackDice();
 		}
+        public override void AfterAction()
+        {
+            base.AfterAction();
+			Buf_BulletLoad.AddBuf(this.owner, 1);
+		}
     }
 	public class DiceCardAbility_Closeup : DiceCardAbilityBase
 	{
@@ -51,6 +61,7 @@ namespace Source
 			{
 				passive.DamageSum += this.behavior.DiceVanillaValue;
 			}
+			Buf_BulletLoad.AddBuf(this.owner, 1);
 		}
         public override void BeforeRollDice_Target(BattleDiceBehavior targetDice)
         {

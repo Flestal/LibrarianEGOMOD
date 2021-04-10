@@ -3,11 +3,19 @@
   <effectTextList>
     <BattleEffectText ID="buf_Tempo">
       <Name>템포</Name>
-      <Desc>반격 위력 {0}만큼 증가, 막 종료 시 1씩 감소, 최대 20중첩 가능</Desc>
+      <Desc>반격 위력 {0} 증가, 막 종료 시 1씩 감소, 최대 20중첩 가능</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="buf_BulletLoad">
+      <Name>장탄</Name>
+      <Desc>원거리 전투 책장 위력 {0} 증가, 매 전투 책장 사용 시 공격 주사위의 갯수만큼 감소</Desc>
     </BattleEffectText>
     <BattleEffectText ID="buf_Apple">
-      <Name>지혜의 열매</Name>
-      <Desc>공격으로 피해를 받을 시 자신에게 부정 감정 2 누적, 감정 단계 3 이하일 때는 사망하지 않음</Desc>
+      <Name>감정 과잉</Name>
+      <Desc>합 승리 시 긍정 감정 2 누적, 합 패배 시 부정 감정 2 누적, 사서가 아닐 경우 주사위 위력 -3, 피해량 -5, 사서인 경우 수비 주사위 위력 +3</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="buf_SpiderFang">
+      <Name>맹독</Name>
+      <Desc>주사위 최대값 {0} 감소, 막 종료 시 1씩 증가, 전투 책장으로 추가 공급이 없을 시 최대 3막 지속</Desc>
     </BattleEffectText>
     <BattleEffectText ID="onlypage_SpiderLegs_Keyword">
       <Name>거미다리 전용 전투 책장</Name>

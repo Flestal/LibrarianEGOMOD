@@ -20,6 +20,9 @@
       <Passive>36492801</Passive>
       <Passive>36492802</Passive>
     
+      <StartPlayPoint>5</StartPlayPoint>
+      <MaxPlayPoint>5</MaxPlayPoint>
+
       <OnlyCard>36492000</OnlyCard>
       <OnlyCard>36492001</OnlyCard>
       <OnlyCard>36492002</OnlyCard>
@@ -82,6 +85,9 @@
 
       <Passive>36492806</Passive>
       <Passive>36492807</Passive>
+
+      <StartPlayPoint>4</StartPlayPoint>
+      <MaxPlayPoint>4</MaxPlayPoint>
     
       <OnlyCard>36492010</OnlyCard>
       <OnlyCard>36492011</OnlyCard>
@@ -115,6 +121,9 @@
       <Passive>36492810</Passive>
       <Passive>36492811</Passive>
       <Passive>36492812</Passive>
+
+      <StartPlayPoint>4</StartPlayPoint>
+      <MaxPlayPoint>4</MaxPlayPoint>
     
       <OnlyCard>36492014</OnlyCard>
       <OnlyCard>36492015</OnlyCard>
@@ -146,6 +155,9 @@
 
       <Passive>36492813</Passive>
       <Passive>36492814</Passive>
+
+      <StartPlayPoint>4</StartPlayPoint>
+      <MaxPlayPoint>4</MaxPlayPoint>
     
       <OnlyCard>36492019</OnlyCard>
       <OnlyCard>36492020</OnlyCard>

@@ -34,11 +34,19 @@ namespace Source
         {
             Buf_Apple.AddBuf(behavior.card.target);
         }*/
-        public override void OnSucceedAttack(BattleDiceBehavior behavior)
+        /*public override void OnSucceedAttack(BattleDiceBehavior behavior)
         {
             if (behavior.Detail==LOR_DiceSystem.BehaviourDetail.Slash||behavior.Detail==LOR_DiceSystem.BehaviourDetail.Penetrate)
             {
                 Buf_Apple.AddBuf(behavior.card.target);
+            }
+        }*/
+        public override void OnRoundStart()
+        {
+            base.OnRoundStart();
+            foreach(BattleUnitModel target in BattleObjectManager.instance.GetAliveList())
+            {
+                Buf_Apple.AddBuf(target);
             }
         }
         public class Buf_Apple : BattleUnitBuf
@@ -51,19 +59,68 @@ namespace Source
                     return "buf_Apple";
                 }
             }
-            public override void OnTakeDamageByAttack(BattleDiceBehavior atkDice, int dmg)
+            public override void OnWinParrying(BattleDiceBehavior behavior)
+            {
+                base.OnWinParrying(behavior);
+                MoreEmotion(true, 2);
+            }
+            public override void OnLoseParrying(BattleDiceBehavior behavior)
+            {
+                base.OnLoseParrying(behavior);
+                MoreEmotion(false, 2);
+            }
+            void MoreEmotion(bool isWin,int count)
+            {
+                if (isWin)
+                {
+                    base._owner.emotionDetail.CreateEmotionCoin(EmotionCoinType.Positive, count);
+                    SingletonBehavior<BattleManagerUI>.Instance.ui_battleEmotionCoinUI.OnAcquireCoin(base._owner, EmotionCoinType.Negative, count);
+                }
+                else
+                {
+                    base._owner.emotionDetail.CreateEmotionCoin(EmotionCoinType.Negative, count);
+                    SingletonBehavior<BattleManagerUI>.Instance.ui_battleEmotionCoinUI.OnAcquireCoin(base._owner, EmotionCoinType.Negative, count);
+                }
+            }
+            /*public override void OnTakeDamageByAttack(BattleDiceBehavior atkDice, int dmg)
             {
                 int count = 2;
                 base._owner.emotionDetail.CreateEmotionCoin(EmotionCoinType.Negative, count);
                 SingletonBehavior<BattleManagerUI>.Instance.ui_battleEmotionCoinUI.OnAcquireCoin(base._owner, EmotionCoinType.Negative, count);
-            }
-            public override int GetDamageReductionAll()
+            }*/
+            /*public override int GetDamageReductionAll()
             {
                 if (this._owner.emotionDetail.EmotionLevel < 3)
                 {
                     return 99999;
                 }
                 return base.GetDamageReductionAll();
+            }*/
+            /*public override bool IsInvincibleHp(BattleUnitModel attacker)
+            {
+                if (this._owner.emotionDetail.EmotionLevel < 3)
+                {
+                    return true;
+                }
+                return false;
+            }*/
+            public override void BeforeRollDice(BattleDiceBehavior behavior)
+            {
+                if (this._owner.faction == Faction.Enemy)
+                {
+                    behavior.ApplyDiceStatBonus(new DiceStatBonus
+                    {
+                        power = -3,
+                        dmg = -5
+                    });
+                }else if (this._owner.faction == Faction.Player && behavior.Type == LOR_DiceSystem.BehaviourType.Def)
+                {
+                    behavior.ApplyDiceStatBonus(new DiceStatBonus
+                    {
+                        power = 3
+                    });
+                }
+                
             }
             public static int GetBuf(BattleUnitModel model)
             {
@@ -122,20 +179,5 @@ namespace Source
                 this.stack = 0;
             }
         }
-        /*public class TempImmortal : BattleUnitBuf
-        {
-            public TempImmortal()
-            {
-                this.stack = 1;
-            }
-            public override int GetDamageReductionAll()
-            {
-                return 99999;
-            }
-            public override void OnRoundEnd()
-            {
-                this.Destroy();
-            }
-        }*/
     }
 }

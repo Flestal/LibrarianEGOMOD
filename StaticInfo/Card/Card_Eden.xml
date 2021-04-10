@@ -41,7 +41,7 @@
         <Script>ApplderScroll</Script>
         <ScriptDesc></ScriptDesc>
         <BehaviourList>
-        <Behaviour Min="12" Dice="14" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script="" Desc="" />
+        <Behaviour Min="12" Dice="14" Type="Def" Detail="Guard" Motion="H" EffectRes="" Script="EdenGuard" Desc="" />
         <Behaviour Min="14" Dice="14" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="EdenGuard" Desc="" />
         <Behaviour Min="14" Dice="18" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="EdenGuard" Desc="" />
         </BehaviourList>

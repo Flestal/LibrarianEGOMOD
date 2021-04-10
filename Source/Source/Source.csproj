@@ -361,6 +361,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Buf_SpiderFang.cs" />
     <Compile Include="Buf_Tempo.cs" />
     <Compile Include="DiceCardAbility_Eden.cs" />
     <Compile Include="DiceCardAbility_GunnerOverClock1.cs" />
@@ -373,6 +374,7 @@
     <Compile Include="DiceCardAbility_SpiderLegs.cs" />
     <Compile Include="DiceCardSelfAbility_drama.cs" />
     <Compile Include="DiceCardSelfAbility_Eden.cs" />
+    <Compile Include="DiceCardSelfAbility_Instant.cs" />
     <Compile Include="DiceCardSelfAbility_where2reach.cs" />
     <Compile Include="DiceCardSelfAbility_Guillotine.cs" />
     <Compile Include="DiceCardSelfAbility_Need15Tempo.cs" />

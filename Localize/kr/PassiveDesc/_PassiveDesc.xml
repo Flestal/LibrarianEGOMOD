@@ -3,15 +3,15 @@
 
   <PassiveDesc ID="36492800">
     <Name>최속</Name>
-    <Desc>속도 주사위 +2, 모든 속도 주사위의 값이 무한대가 된다</Desc>
+    <Desc>속도 주사위 +2, 모든 속도 주사위의 값이 최대가 된다.</Desc>
   </PassiveDesc>
   <PassiveDesc ID="36492801">
     <Name>거미다리</Name>
     <Desc>모든 공격 주사위를 8회 사용한다, 8번째 재사용하는 주사위는 위력의 효과를 2배로 받는다.</Desc>
   </PassiveDesc>
   <PassiveDesc ID="36492802">
-    <Name>집행</Name>
-    <Desc>합 승리 시 상대의 현재 체력의 5%만큼 추가 피해, 현재 흐트러짐 저항의 5%만큼 추가 흐트러짐 피해를 준다</Desc>
+    <Name>견각</Name>
+    <Desc>전투 시 자신과 합을 하는 상대의 위력 무시, 힘과 인내로 주사위의 최소값과 최대값이 오른다. 감정 단계가 3 이상이면 주사위의 최소값과 최대값이 2배씩 오른다.</Desc>
   </PassiveDesc>
   <PassiveDesc ID="36492803">
     <Name>아 피아체레</Name>
@@ -39,7 +39,7 @@
   </PassiveDesc>
   <PassiveDesc ID="36492809">
     <Name>전개</Name>
-    <Desc>공격 주사위 적중 시 탄환을 1장 얻음, 책장 사용 시 탄환 최대 3장 버림, 버린 탄환 1장당 위력 +2</Desc>
+    <Desc>공격 주사위 사용 시 장탄을 1 얻음, 책장 사용 시 공격 주사위 갯수만큼 장탄을 사용, 사용한 장탄 수x2 만큼 위력을 얻음</Desc>
   </PassiveDesc>
   <PassiveDesc ID="36492810">
     <Name>위기</Name>
@@ -58,8 +58,8 @@
     <Desc>감정 단계마다 속도 주사위 추가, 적중 시 긍정 감정 누적, 피격 시 부정 감정 누적</Desc>
   </PassiveDesc>
   <PassiveDesc ID="36492814">
-    <Name>믿음의 과실</Name>
-    <Desc>참격이나 관통 속성으로 피해를 줄 시 상대에게 지혜의 열매 부여</Desc>
+    <Name>감정 과잉</Name>
+    <Desc>막 시작 시 모든 캐릭터에게 "감정 과잉" 효과 부여</Desc>
   </PassiveDesc>
 
 </PassiveDescRoot>

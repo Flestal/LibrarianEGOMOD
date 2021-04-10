@@ -27,5 +27,17 @@
     <Card>36492022</Card>
     <Card>36492023</Card>
     <Card>36492024</Card>
+    <Card>36492900</Card>
+  </DropTable>
+  <DropTable ID="250023">
+    <Card>608007</Card>
+    <Card>608008</Card>
+    <Card>608013</Card>
+    <Card>608014</Card>
+    <Card>36492901</Card>
+    <Card>36492902</Card>
+    <Card>36492903</Card>
+    <Card>36492904</Card>
+    <Card>36492905</Card>
   </DropTable>
 </CardDropTableXmlRoot>
